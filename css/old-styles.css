@@ -1,6 +1,6 @@
 
 
-body{
+/* body{
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #fff;
@@ -73,10 +73,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-}
+} */
 
 /* header */
-.page-header{
+/* .page-header{
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
@@ -97,17 +97,9 @@ color: #4d5ae5;
     gap: 40px;
 }
 
-.contacts-list{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
 
-.header-logo{
-    padding-top: 24px ;
-    padding-bottom: 24px;
-    margin-right: 76px;
-}
+
+
 
 .header-logo .logo-part{
     color: #2e2f42;
@@ -144,30 +136,16 @@ position: relative;
 .contacts{
 font-style: normal;
 margin-left: auto;
-}
+} */
 
-.contacts-link{
-display: block;
-padding: 24px 0;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus,
-.nav-link.current {
-color: #404bbf
-}
+
+
 
 
 
 /* section-start */
-.section-start{ 
+/* .section-start{ 
 max-width: 1440px;
 height: 600px;
 margin: auto;
@@ -215,10 +193,11 @@ transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 
 .heading-xl-button-title{
 color: #fff;
-}
+} */
 
 /* advantages */
-.advantages{
+
+/* .advantages{
 padding: 120px 0;
 }
 
@@ -282,12 +261,12 @@ color: #2e2f42;
 .heading-md-advantages,
 .text-paragraph{
     text-align: left;
-}
+} */
 
 /* team */
 
 .section-team {
-    background-color: #F4F4FD;
+    max-width: 1158px;
     padding: 120px 0;
 }
 
@@ -608,8 +587,8 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 transition:
-           opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-           visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
