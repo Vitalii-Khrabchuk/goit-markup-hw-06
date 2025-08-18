@@ -83,7 +83,7 @@ button{
 .container {
     max-width: 320px;
     padding: 0 16px;
-    margin: 0 auto;
+    margin: 0, auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -197,6 +197,8 @@ button{
         .contacts {
         font-style: normal;
         display: block;
+        margin-left: auto;
+        margin-right: 16px;
         }
 
 
@@ -204,6 +206,7 @@ button{
         .header-logo {
         padding: 24px 0;
         margin-right: 120px;
+        margin-left: 16px;
         }
 
         .nav-link:hover,
@@ -236,6 +239,7 @@ button{
 
     .header-logo {
     margin-right: 76px;
+    margin-left: 156px;
     }
 
     .contacts-list {
@@ -251,6 +255,7 @@ button{
     letter-spacing: 0.02em;
 }
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -1202,8 +1207,9 @@ padding-right: 108px;
 
 /* footer */
 .page-footer {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
-    height: 664px;
     background-color: #2e2f42;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1258,8 +1264,7 @@ margin: 0 auto 16px auto;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0
-;
+    margin: 0;
 }
 
 .footer-info {
@@ -1358,9 +1363,15 @@ width: 288px;
 
 @media screen and (min-width: 768px){
 
+.container{
+    margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: left;
+}
+
  .footer-container {
-  max-width: 768px ;  
-  height: 456px;
+  max-width: 100% ;  
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -1368,8 +1379,12 @@ width: 288px;
 
 .footer-info{
     margin-right: 24px;
-}
+    text-align: left;
+    }
 
+.footer-container {
+    padding-left: 108px;
+}
 
 .text-social-footer,
 .email-form-txt {
@@ -1397,6 +1412,11 @@ width: 288px;
     justify-content: flex-start;
 }
 
+
+.input-label-foooter-email{
+margin-right: 24px;
+}
+
 .input-emeil-footer {
     width: 264px;
 }
@@ -1418,6 +1438,10 @@ margin: 0, 0, 16px, 0;
   
         padding: 100px, 156px;
     }
+
+        .footer-text{
+            flex-shrink: 0;
+        }
 
     .footer-container {
 
@@ -1450,4 +1474,3 @@ margin: 0, 0, 16px, 0;
 
 
 }
-
